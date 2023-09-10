@@ -1,5 +1,6 @@
 package main
 
+// this creates a rotated sorted array
 func rotate(a []int, n int) {
 
 	for i, j := 0, len(a)-1; i < j; i, j = i+1, j-1 {
